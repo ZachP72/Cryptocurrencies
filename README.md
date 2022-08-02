@@ -10,3 +10,10 @@ Prepare data for dimension reduction with PCA and clustering using K-Means. We'v
 Then we've clustered cryptocurrencies using K-Means; first creating an Elbow Curve to find the best value for k. Once we've determined the k value we thought best fits, we've used the k-means clustering algorithm to the predict the k clusters for the processed data. Results are:
 
 ![image](https://user-images.githubusercontent.com/95777297/182272272-259a8b30-5b11-4d08-83d2-42159c2e0ae6.png)
+
+## Analysis
+- A 3D-Scatter using hvPlot to plot the clusters.
+- Using hvplot.table to create a data table with all the current tradable cryptocurrencies.
+- Create a scatter plot using hvplot.scatter, to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins.
+ 
+ ![image](https://user-images.githubusercontent.com/95777297/182272455-43aa876a-7e35-44dd-ac99-df37ac53e1ad.png)
